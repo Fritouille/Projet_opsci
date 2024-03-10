@@ -13,14 +13,14 @@ Pour éteindre l'application `./opsci down`
  IP : 172.20.0.2,
  port : 5432
 
-### frontend :
- nom_docker : frontend,
- nom_image : frontend,
- IP : 172.20.0.3,
- port : 5173
-
 ### strapi :
  nom_docker : strapi,
  nom_image : strapi,
- IP : 172.20.0.4,
+ IP : 172.20.0.3,
  port : 1338
+
+### frontend :
+ nom_docker : frontend,
+ nom_image : frontend,
+ IP : 172.20.0.4,
+ port : 5173
